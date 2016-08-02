@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+<!-- controller로 보낼때 구별할 수 있는 방법으로 ?cmd=login으로 붙여준다. Get방식 -->
+<form method = "post" action = "controller?cmd=login">
+	<p>id : <input type = "text" name ="id"></p>
+	<p>pw : <input type = "password" name = "pw"></p>
+	<input type = "submit" value ="Login"/>
+</form>
+</body>
+</html>
